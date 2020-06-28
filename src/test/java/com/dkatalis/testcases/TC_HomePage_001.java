@@ -9,8 +9,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.inetbanking.pageObjects.HomePage;
-
 public class TC_HomePage_001 extends TestBase {
 
 	public String title = "Sample Store";
@@ -35,7 +33,7 @@ public class TC_HomePage_001 extends TestBase {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		assertTrue(driver.getTitle().contains("Sample Store"));
-		HomePage hp = new HomePage(driver);
+		com.dkatalis.pageobjects.HomePage hp = new com.dkatalis.pageobjects.HomePage(driver);
 		hp.midtransPillowDisplay();
 		hp.clickBuyNow();
 		Thread.sleep(3000);
