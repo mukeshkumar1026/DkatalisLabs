@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18809" started-at="2020-06-26T20:00:18Z" finished-at="2020-06-26T20:00:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18809" started-at="2020-06-26T20:00:18Z" finished-at="2020-06-26T20:00:37Z">
+      <class name="testcases.hybridTestCases.GridTestCase2">
+        <test-method status="PASS" signature="testApplication()[pri:0, instance:testcases.hybridTestCases.GridTestCase2@6e1567f1]" name="testApplication" duration-ms="18779" started-at="2020-06-27T01:30:18Z" finished-at="2020-06-27T01:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+      </class> <!-- testcases.hybridTestCases.GridTestCase2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

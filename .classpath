@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/byte-buddy-1.8.3.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/gson-2.8.4.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/poi-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/poi-examples-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/poi-excelant-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/poi-ooxml-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/poi-ooxml-schemas-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/poi-scratchpad-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="F:/File_All_F/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
