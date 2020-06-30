@@ -1,9 +1,7 @@
 package com.dkatalis.testcases;
 
 import static org.testng.Assert.assertTrue;
-
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -26,7 +24,7 @@ public class TC_HomePage_001 extends TestBase {
 	}
 
 	@Test
-	public void homeTest() throws InterruptedException {
+	public void homeTest() throws Exception {
 
 		driver.get(baseURL);
 		driver.manage().window().maximize();
@@ -37,13 +35,15 @@ public class TC_HomePage_001 extends TestBase {
 		hp.midtransPillowDisplay();
 		hp.clickBuyNow();
 		Thread.sleep(3000);
-		hp.setUserName(fullName);//Start fill details in shopping carts
+		hp.setUserName(fullName);// Start fill details in shopping carts
 		hp.setUserEmail(email);
 		hp.setUserPhone(phone);
 		hp.setUserCity(city);
 		hp.setUseraddress(address);
 		hp.setUserPostalCode(postalcode);
+		hp.clickCheckout();
 		hp.clickCheckoutAndPopUP();
+		
 
 	}
 }

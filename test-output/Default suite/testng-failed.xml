@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.hybridTestCases.GridTestCase">
+      <class name="com.dkatalis.testcases.TC_HomePage_001">
         <methods>
-          <include name="testApplication"/>
+          <include name="setup"/>
+          <include name="homeTest"/>
         </methods>
-      </class> <!-- testcases.hybridTestCases.GridTestCase -->
+      </class> <!-- com.dkatalis.testcases.TC_HomePage_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

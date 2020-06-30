@@ -1,8 +1,12 @@
 package com.dkatalis.pageobjects;
 
+
+import java.awt.Robot;
+import java.awt.event.InputEvent;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -88,6 +92,10 @@ public class HomePage {
 	@FindBy(xpath = "//*[@id=\"application\"]/div[3]/div/div/div/form/div[2]/div[3]/input")
 
 	WebElement inputcvvNumber;
+
+	@FindBy(xpath="//*[@class='button-main-content']")
+
+	WebElement clickContinueOrder;
 
 	// OTP
 
@@ -186,17 +194,34 @@ public class HomePage {
 		inputcvvNumber.sendKeys(ccvnumber);
 	}
 
-//		public void setUserBankOTP(String bankotp) {
-//			
-//			
-//			
-//		}
+	public void clickCheckout() throws InterruptedException {
+		checkOut.click();
+		Thread.sleep(3000);
+		Alert alert = driver.switchTo().alert();
+//		String alertmessage = driver.switchTo().alert().getText();
+//		System.out.println(alertmessage);
+		Thread.sleep(3000);
+		alert.accept();
+//		clickContinue.click();
+		clickContinueOrder.click();
+
+	}
+
 	// Click check out
 
-	public void clickCheckoutAndPopUP() throws InterruptedException {
+	public void clickCheckoutAndPopUP() throws Exception {
 
 		checkOut.click();
 		Thread.sleep(3000);
+		
+		Robot robot=new Robot();
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		Thread.sleep(3000);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		Thread.sleep(3000);
+		clickContinue.click();
+//		Alert alert=driver.switchTo().alert();
+//		alert.accept();
 		String MainWindow = driver.getWindowHandle();
 		Set<String> s1 = driver.getWindowHandles();
 		Iterator<String> i1 = s1.iterator();
